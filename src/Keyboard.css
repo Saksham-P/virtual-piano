@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.white-key {
+    stroke: #555555;
+    fill: #fffff7;
+}
+
+.white-key:hover {
+    fill: #dddddd
+}
+
+.black-key {
+    stroke: #979797;
+    fill: #4b4b4b;
+}
+
+.black-key:hover {
+    fill: #777777
+}
+
+.white-key-text {
+    fill: black;
+    font-size: 1.3em;
+    pointer-events: none;
+    user-select: none;
+}
+
+.black-key-text {
+    fill: white;
+    font-size: 1.3em;
+    font-weight: 200;
+    pointer-events: none;
+    user-select: none;
+}
